@@ -1,0 +1,49 @@
+.container {
+  height: 100%;
+  display: flex;
+}
+
+.side {
+  width: 260px;
+  background: black;
+}
+
+.main {
+  padding: 0 32px;
+  flex: 1;
+}
+
+.editor {
+  display: flex;
+  align-items: end;
+  gap: 20px;
+}
+
+.textarea-container {
+  flex: 1;
+}
+
+.radio-group {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.radio {
+  padding-inline: 20px;
+}
+
+.rule-item {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 4px 10px;
+}
+
+.rule-number {
+  width: 24px;
+}
+
+.rules {
+  display: flex;
+  flex-direction: column;
+}
