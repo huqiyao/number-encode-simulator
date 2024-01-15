@@ -2,48 +2,72 @@
   height: 100%;
   display: flex;
 }
-
 .side {
+  display: flex;
+  padding: 16px;
+  flex-direction: column;
   width: 260px;
   background: black;
+  color: white;
 }
-
 .main {
   padding: 0 32px;
   flex: 1;
 }
-
 .editor {
   display: flex;
   align-items: end;
   gap: 20px;
 }
-
 .textarea-container {
   flex: 1;
 }
-
 .radio-group {
   display: flex;
   flex-wrap: wrap;
 }
-
 .radio {
   padding-inline: 20px;
 }
-
 .rule-item {
   display: flex;
   align-items: center;
   gap: 24px;
   padding: 4px 10px;
 }
-
 .rule-number {
   width: 24px;
 }
-
 .rules {
   display: flex;
   flex-direction: column;
+}
+.record {
+  padding: 8px 0;
+  cursor: pointer;
+  border-bottom: 0.5px solid rgb(236, 236, 220);
+}
+.record-date {
+  font-size: 14px;
+  color: #767676;
+}
+.record-value {
+  font-size: 14px;
+  color: rgb(236, 236, 241);
+}
+.icon-list {
+  display: flex;
+  gap: 32px;
+}
+.icon {
+  cursor: pointer;
+}
+.wrapper {
+  position: relative;
+}
+.copy-icon {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  cursor: pointer;
 }
